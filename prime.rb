@@ -1,12 +1,9 @@
 # Add  code here!
 def prime?(integer)
-  if integer == 2
-    true
-  else
-  i=2
+  i=1
   while i < integer
     [1..integer].any? {|num| integer % num ==0}
-    i+=1
+  i+=1
   end
 end
 end
