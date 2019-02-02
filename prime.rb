@@ -4,8 +4,8 @@ def prime?(integer)
     false
   elsif integer == 2
     true
-  elsif integer < 0 
-    fase 
+  elsif integer < 0
+    fase
   else
     range = (2..integer).to_a
     range.pop
