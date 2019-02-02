@@ -6,6 +6,7 @@ def prime?(integer)
     true
   else
     range = (2..integer).to_a
+    range.pop
     range.none? {|num| integer % num == 0}
 end
 end
